@@ -1,4 +1,21 @@
 
 body{
-    background: darkcyan;
+    background: #2599b7;
+}
+#banner{
+    max-width: 960px;
+    margin: auto;
+
+}
+#underbanner{
+    text-align: right;
+    margin-right: 50px;
+}
+#link{
+    text-align: left;
+    margin-left: 50px;
+}
+#name_form{
+    text-align: left;
+
 }
