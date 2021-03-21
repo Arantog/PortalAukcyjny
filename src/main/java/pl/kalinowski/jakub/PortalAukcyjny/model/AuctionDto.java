@@ -9,6 +9,14 @@ public class AuctionDto {
     private double bid;
     private String description;
 
+    public AuctionDto(int id, String title, Category category, double bid, String description) {
+        this.id = id;
+        this.title = title;
+        this.category = category;
+        this.bid = bid;
+        this.description = description;
+    }
+
     public AuctionDto(String title, Category category, double bid, String description) {
         this.title = title;
         this.category = category;
