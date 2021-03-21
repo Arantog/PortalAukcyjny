@@ -21,9 +21,6 @@ public class AuctionEntity {
     private double bid;
 
     @Column
-    private double buyout;
-
-    @Column
     private String description;
 
 //    @Column
