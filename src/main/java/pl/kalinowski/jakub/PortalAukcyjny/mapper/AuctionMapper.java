@@ -27,7 +27,8 @@ public class AuctionMapper {
                 entity.getTitle(),
                 entity.getCategory(),
                 entity.getBid(),
-                entity.getDescription()
+                entity.getDescription(),
+                entity.getEndingTime()
                 );
     }
 }

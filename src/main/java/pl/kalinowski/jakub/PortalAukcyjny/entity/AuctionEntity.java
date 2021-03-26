@@ -23,6 +23,9 @@ public class AuctionEntity {
     @Column
     private String description;
 
+    @Column
+    private boolean completed;
+
     public int getId() {
         return id;
     }
@@ -62,7 +65,15 @@ public class AuctionEntity {
     public void setDescription(String description) {
         this.description = description;
     }
-//    @Column
+
+    public boolean getEndingTime() {
+        return completed;
+    }
+
+    public void setEndingTime(boolean completed) {
+        this.completed = completed;
+    }
+    //    @Column
 //    private int remainingTime(){
 //       return LocalDateTime.now().compareTo(finishDate);
 //    }
