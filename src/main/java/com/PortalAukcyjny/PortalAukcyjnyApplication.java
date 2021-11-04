@@ -1,4 +1,4 @@
-package pl.kalinowski.jakub.PortalAukcyjny;
+package com.PortalAukcyjny;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

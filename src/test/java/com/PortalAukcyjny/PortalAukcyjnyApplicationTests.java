@@ -1,4 +1,4 @@
-package pl.kalinowski.jakub.PortalAukcyjny;
+package com.PortalAukcyjny;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
